@@ -2,17 +2,6 @@ body{
   background: linear-gradient(90deg, #FC00FF, #00DBDE);
 }
 
-.card{
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  max-width: 500px;
-  min-height: 300px;
-  font-weight: bold;
-
-}
-
 .flip-card {
   background-color: transparent;
   width: 500px;
@@ -29,7 +18,7 @@ body{
   transform-style: preserve-3d;
 }
 
-.flip-card:hover .flip-card-inner {
+.turned .flip-card-inner {
   transform: rotateY(180deg);
 }
 
